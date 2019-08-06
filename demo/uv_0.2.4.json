@@ -1,0 +1,1315 @@
+{
+  "functions": [
+    {
+      "fun": "function uv_accept($server, $client)",
+      "name": "uv_accept",
+      "args": [
+        "server",
+        "client"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_async_init($loop, $callback)",
+      "name": "uv_async_init",
+      "args": [
+        "loop",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_async_send($handle)",
+      "name": "uv_async_send",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_chdir($dir)",
+      "name": "uv_chdir",
+      "args": [
+        "dir"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_check_init($loop)",
+      "name": "uv_check_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_check_start($handle, $callback)",
+      "name": "uv_check_start",
+      "args": [
+        "handle",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_check_stop($handle)",
+      "name": "uv_check_stop",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_close($stream, $callback)",
+      "name": "uv_close",
+      "args": [
+        "stream",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_cpu_info()",
+      "name": "uv_cpu_info",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_cwd()",
+      "name": "uv_cwd",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_default_loop()",
+      "name": "uv_default_loop",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_err_name($error)",
+      "name": "uv_err_name",
+      "args": [
+        "error"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_exepath()",
+      "name": "uv_exepath",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_chmod($loop, $path, $mode, $callback)",
+      "name": "uv_fs_chmod",
+      "args": [
+        "loop",
+        "path",
+        "mode",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_chown($loop, $path, $uid, $gid, $callback)",
+      "name": "uv_fs_chown",
+      "args": [
+        "loop",
+        "path",
+        "uid",
+        "gid",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_close($loop, $fd, $callback)",
+      "name": "uv_fs_close",
+      "args": [
+        "loop",
+        "fd",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_event_init($loop, $path, $callback, $flags)",
+      "name": "uv_fs_event_init",
+      "args": [
+        "loop",
+        "path",
+        "callback",
+        "flags"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_fchmod($loop, $fd, $mode, $callback)",
+      "name": "uv_fs_fchmod",
+      "args": [
+        "loop",
+        "fd",
+        "mode",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_fchown($loop, $fd, $uid, $gid, $callback)",
+      "name": "uv_fs_fchown",
+      "args": [
+        "loop",
+        "fd",
+        "uid",
+        "gid",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_fdatasync($loop, $fd, $callback)",
+      "name": "uv_fs_fdatasync",
+      "args": [
+        "loop",
+        "fd",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_fstat($loop, $fd, $callback)",
+      "name": "uv_fs_fstat",
+      "args": [
+        "loop",
+        "fd",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_fsync($loop, $fd, $callback)",
+      "name": "uv_fs_fsync",
+      "args": [
+        "loop",
+        "fd",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_ftruncate($loop, $fd, $offset, $callback)",
+      "name": "uv_fs_ftruncate",
+      "args": [
+        "loop",
+        "fd",
+        "offset",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_futime($loop, $fd, $utime, $atime, $callback)",
+      "name": "uv_fs_futime",
+      "args": [
+        "loop",
+        "fd",
+        "utime",
+        "atime",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_link($loop, $from, $to, $callback)",
+      "name": "uv_fs_link",
+      "args": [
+        "loop",
+        "from",
+        "to",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_lstat($loop, $path, $callback)",
+      "name": "uv_fs_lstat",
+      "args": [
+        "loop",
+        "path",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_mkdir($loop, $path, $mode, $callback)",
+      "name": "uv_fs_mkdir",
+      "args": [
+        "loop",
+        "path",
+        "mode",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_open($loop, $path, $flag, $mode, $callback)",
+      "name": "uv_fs_open",
+      "args": [
+        "loop",
+        "path",
+        "flag",
+        "mode",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_poll_init($loop)",
+      "name": "uv_fs_poll_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_poll_start($handle, $callback, $path, $interval)",
+      "name": "uv_fs_poll_start",
+      "args": [
+        "handle",
+        "callback",
+        "path",
+        "interval"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_poll_stop($loop)",
+      "name": "uv_fs_poll_stop",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_read($loop, $fd, $offset, $size, $callback)",
+      "name": "uv_fs_read",
+      "args": [
+        "loop",
+        "fd",
+        "offset",
+        "size",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_readdir($loop, $path, $flags, $callback)",
+      "name": "uv_fs_readdir",
+      "args": [
+        "loop",
+        "path",
+        "flags",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_readlink($loop, $path, $callback)",
+      "name": "uv_fs_readlink",
+      "args": [
+        "loop",
+        "path",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_rename($loop, $from, $to, $callback)",
+      "name": "uv_fs_rename",
+      "args": [
+        "loop",
+        "from",
+        "to",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_rmdir($loop, $path, $callback)",
+      "name": "uv_fs_rmdir",
+      "args": [
+        "loop",
+        "path",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_scandir($loop, $path, $flags, $callback)",
+      "name": "uv_fs_scandir",
+      "args": [
+        "loop",
+        "path",
+        "flags",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_sendfile($loop, $in, $out, $offset, $length, $callback)",
+      "name": "uv_fs_sendfile",
+      "args": [
+        "loop",
+        "in",
+        "out",
+        "offset",
+        "length",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_stat($loop, $path, $callback)",
+      "name": "uv_fs_stat",
+      "args": [
+        "loop",
+        "path",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_symlink($loop, $from, $to, $callback, $flags)",
+      "name": "uv_fs_symlink",
+      "args": [
+        "loop",
+        "from",
+        "to",
+        "callback",
+        "flags"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_unlink($loop, $path, $callback)",
+      "name": "uv_fs_unlink",
+      "args": [
+        "loop",
+        "path",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_utime($loop, $path, $utime, $atime, $callback)",
+      "name": "uv_fs_utime",
+      "args": [
+        "loop",
+        "path",
+        "utime",
+        "atime",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_fs_write($loop, $fd, $buffer, $offset, $callback)",
+      "name": "uv_fs_write",
+      "args": [
+        "loop",
+        "fd",
+        "buffer",
+        "offset",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_get_free_memory()",
+      "name": "uv_get_free_memory",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_get_total_memory()",
+      "name": "uv_get_total_memory",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_getaddrinfo($resource, $callback)",
+      "name": "uv_getaddrinfo",
+      "args": [
+        "resource",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_guess_handle($fd)",
+      "name": "uv_guess_handle",
+      "args": [
+        "fd"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_hrtime()",
+      "name": "uv_hrtime",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_idle_init($loop)",
+      "name": "uv_idle_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_idle_start($timer, $callback)",
+      "name": "uv_idle_start",
+      "args": [
+        "timer",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_idle_stop($idle)",
+      "name": "uv_idle_stop",
+      "args": [
+        "idle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_interface_addresses()",
+      "name": "uv_interface_addresses",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_ip4_addr($address, $port)",
+      "name": "uv_ip4_addr",
+      "args": [
+        "address",
+        "port"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_ip4_name($handle)",
+      "name": "uv_ip4_name",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_ip6_addr($address, $port)",
+      "name": "uv_ip6_addr",
+      "args": [
+        "address",
+        "port"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_ip6_name($handle)",
+      "name": "uv_ip6_name",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_is_active($handle)",
+      "name": "uv_is_active",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_is_closing($handle)",
+      "name": "uv_is_closing",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_is_readable($handle)",
+      "name": "uv_is_readable",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_is_writable($handle)",
+      "name": "uv_is_writable",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_kill($pid, $signal)",
+      "name": "uv_kill",
+      "args": [
+        "pid",
+        "signal"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_listen($resource, $backlog, $callback)",
+      "name": "uv_listen",
+      "args": [
+        "resource",
+        "backlog",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_loadavg()",
+      "name": "uv_loadavg",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_loop_delete($loop)",
+      "name": "uv_loop_delete",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_loop_new()",
+      "name": "uv_loop_new",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_mutex_init()",
+      "name": "uv_mutex_init",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_mutex_lock($handle)",
+      "name": "uv_mutex_lock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_mutex_trylock($handle)",
+      "name": "uv_mutex_trylock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_mutex_unlock($handle)",
+      "name": "uv_mutex_unlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_now($loop)",
+      "name": "uv_now",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_bind($handle, $name)",
+      "name": "uv_pipe_bind",
+      "args": [
+        "handle",
+        "name"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_connect($handle, $name, $callback)",
+      "name": "uv_pipe_connect",
+      "args": [
+        "handle",
+        "name",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_init($file)",
+      "name": "uv_pipe_init",
+      "args": [
+        "file"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_open($file, $pipe)",
+      "name": "uv_pipe_open",
+      "args": [
+        "file",
+        "pipe"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_pending_count($handle)",
+      "name": "uv_pipe_pending_count",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_pending_instances($handle, $count)",
+      "name": "uv_pipe_pending_instances",
+      "args": [
+        "handle",
+        "count"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_pipe_pending_type($handle)",
+      "name": "uv_pipe_pending_type",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_poll_init($loop, $fd)",
+      "name": "uv_poll_init",
+      "args": [
+        "loop",
+        "fd"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_poll_init_socket($loop, $fd)",
+      "name": "uv_poll_init_socket",
+      "args": [
+        "loop",
+        "fd"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_poll_start($handle, $events, $callback)",
+      "name": "uv_poll_start",
+      "args": [
+        "handle",
+        "events",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_poll_stop($handle)",
+      "name": "uv_poll_stop",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_prepare_init($loop)",
+      "name": "uv_prepare_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_prepare_start($handle, $callback)",
+      "name": "uv_prepare_start",
+      "args": [
+        "handle",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_prepare_stop($handle)",
+      "name": "uv_prepare_stop",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_process_kill($process, $signal)",
+      "name": "uv_process_kill",
+      "args": [
+        "process",
+        "signal"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_queue_work()",
+      "name": "uv_queue_work",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_read2_start($server, $callback)",
+      "name": "uv_read2_start",
+      "args": [
+        "server",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_read_start($server, $callback)",
+      "name": "uv_read_start",
+      "args": [
+        "server",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_read_stop($server)",
+      "name": "uv_read_stop",
+      "args": [
+        "server"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_ref($loop)",
+      "name": "uv_ref",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_resident_set_memory()",
+      "name": "uv_resident_set_memory",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_run($loop)",
+      "name": "uv_run",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_init()",
+      "name": "uv_rwlock_init",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_rdlock($handle)",
+      "name": "uv_rwlock_rdlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_rdunlock($handle)",
+      "name": "uv_rwlock_rdunlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_tryrdlock($handle)",
+      "name": "uv_rwlock_tryrdlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_trywrlock($handle)",
+      "name": "uv_rwlock_trywrlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_wrlock($handle)",
+      "name": "uv_rwlock_wrlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_rwlock_wrunlock($handle)",
+      "name": "uv_rwlock_wrunlock",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_sem_init($val)",
+      "name": "uv_sem_init",
+      "args": [
+        "val"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_sem_post($resource)",
+      "name": "uv_sem_post",
+      "args": [
+        "resource"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_sem_trywait($resource)",
+      "name": "uv_sem_trywait",
+      "args": [
+        "resource"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_sem_wait($resource)",
+      "name": "uv_sem_wait",
+      "args": [
+        "resource"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_shutdown($stream, $callback)",
+      "name": "uv_shutdown",
+      "args": [
+        "stream",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_signal_init($loop)",
+      "name": "uv_signal_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_signal_start($sig_handle, $sig_callback, $sig_num)",
+      "name": "uv_signal_start",
+      "args": [
+        "sig_handle",
+        "sig_callback",
+        "sig_num"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_signal_stop($sig_handle)",
+      "name": "uv_signal_stop",
+      "args": [
+        "sig_handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_spawn()",
+      "name": "uv_spawn",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_stdio_new()",
+      "name": "uv_stdio_new",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_stop($loop)",
+      "name": "uv_stop",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_strerror($error)",
+      "name": "uv_strerror",
+      "args": [
+        "error"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_bind($resource, $address)",
+      "name": "uv_tcp_bind",
+      "args": [
+        "resource",
+        "address"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_bind6($resource, $address)",
+      "name": "uv_tcp_bind6",
+      "args": [
+        "resource",
+        "address"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_connect($resource, $callback)",
+      "name": "uv_tcp_connect",
+      "args": [
+        "resource",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_connect6($resource, $callback)",
+      "name": "uv_tcp_connect6",
+      "args": [
+        "resource",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_getpeername($handle)",
+      "name": "uv_tcp_getpeername",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_getsockname($handle)",
+      "name": "uv_tcp_getsockname",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_init($loop)",
+      "name": "uv_tcp_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_nodelay($tcp, $enabled)",
+      "name": "uv_tcp_nodelay",
+      "args": [
+        "tcp",
+        "enabled"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_open($resource, $tcpfd)",
+      "name": "uv_tcp_open",
+      "args": [
+        "resource",
+        "tcpfd"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tcp_simultaneous_accepts()",
+      "name": "uv_tcp_simultaneous_accepts",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_again($timer)",
+      "name": "uv_timer_again",
+      "args": [
+        "timer"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_get_repeat($timer)",
+      "name": "uv_timer_get_repeat",
+      "args": [
+        "timer"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_init($loop)",
+      "name": "uv_timer_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_set_repeat($timer, $timeout)",
+      "name": "uv_timer_set_repeat",
+      "args": [
+        "timer",
+        "timeout"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_start($timer, $timeout, $repeat, $callback)",
+      "name": "uv_timer_start",
+      "args": [
+        "timer",
+        "timeout",
+        "repeat",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_timer_stop($timer)",
+      "name": "uv_timer_stop",
+      "args": [
+        "timer"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tty_get_winsize($tty, $width, $height)",
+      "name": "uv_tty_get_winsize",
+      "args": [
+        "tty",
+        "width",
+        "height"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tty_init($loop, $fd, $readable)",
+      "name": "uv_tty_init",
+      "args": [
+        "loop",
+        "fd",
+        "readable"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tty_reset_mode()",
+      "name": "uv_tty_reset_mode",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_tty_set_mode()",
+      "name": "uv_tty_set_mode",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_bind($resource, $address, $flags)",
+      "name": "uv_udp_bind",
+      "args": [
+        "resource",
+        "address",
+        "flags"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_bind6($resource, $address, $flags)",
+      "name": "uv_udp_bind6",
+      "args": [
+        "resource",
+        "address",
+        "flags"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_getsockname($handle)",
+      "name": "uv_udp_getsockname",
+      "args": [
+        "handle"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_init($loop)",
+      "name": "uv_udp_init",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_open($resource, $udpfd)",
+      "name": "uv_udp_open",
+      "args": [
+        "resource",
+        "udpfd"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_recv_start($server, $callback)",
+      "name": "uv_udp_recv_start",
+      "args": [
+        "server",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_recv_stop($server)",
+      "name": "uv_udp_recv_stop",
+      "args": [
+        "server"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_send($server, $buffer, $address, $callback)",
+      "name": "uv_udp_send",
+      "args": [
+        "server",
+        "buffer",
+        "address",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_send6($server, $buffer, $address, $callback)",
+      "name": "uv_udp_send6",
+      "args": [
+        "server",
+        "buffer",
+        "address",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_set_broadcast($server, $enabled)",
+      "name": "uv_udp_set_broadcast",
+      "args": [
+        "server",
+        "enabled"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_set_membership($client, $multicast_addr, $interface_addr, $membership)",
+      "name": "uv_udp_set_membership",
+      "args": [
+        "client",
+        "multicast_addr",
+        "interface_addr",
+        "membership"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_set_multicast_loop($server, $enabled)",
+      "name": "uv_udp_set_multicast_loop",
+      "args": [
+        "server",
+        "enabled"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_udp_set_multicast_ttl($server, $ttl)",
+      "name": "uv_udp_set_multicast_ttl",
+      "args": [
+        "server",
+        "ttl"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_unref($loop)",
+      "name": "uv_unref",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_update_time($loop)",
+      "name": "uv_update_time",
+      "args": [
+        "loop"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_uptime()",
+      "name": "uv_uptime",
+      "args": [],
+      "return": ""
+    },
+    {
+      "fun": "function uv_walk($loop, $callback, $opaque)",
+      "name": "uv_walk",
+      "args": [
+        "loop",
+        "callback",
+        "opaque"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_write($client, $data, $callback)",
+      "name": "uv_write",
+      "args": [
+        "client",
+        "data",
+        "callback"
+      ],
+      "return": ""
+    },
+    {
+      "fun": "function uv_write2($client, $data, $send, $callback)",
+      "name": "uv_write2",
+      "args": [
+        "client",
+        "data",
+        "send",
+        "callback"
+      ],
+      "return": ""
+    }
+  ]
+}

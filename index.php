@@ -43,7 +43,7 @@ function extFunctions($ext)
     $FunInfo = [];
     foreach ($Functions as $k => $v) {
         $tempInfo = funInfo($v);
-        $FunInfo[$tempInfo["fun"]] = $tempInfo;
+        $FunInfo[$tempInfo["name"]] = $tempInfo;
     }
 
     ksort($FunInfo);
@@ -52,9 +52,18 @@ function extFunctions($ext)
 function extClasses($ext)
 {
     $Classes = $ext->getClasses();
-    line("Class");
-    var_dump($Classes);
-    line("Class");
+
+    $ClassInfo = [];
+
+    foreach ($Classes as $key => $value) {
+    	$tempInfo = classInfo($value);
+    	$ClassInfo[$tempInfo["name"]] = $tempInfo;
+    }
+
+
+    ksort($ClassInfo);
+
+    return array_values($ClassInfo);
 }
 
 
@@ -84,6 +93,25 @@ function funInfo($func)
     ];
 
     return $temp;
+}
+
+function classInfo($class)
+{
+	
+	/*常量*/
+	/*属性*/
+
+	/*构造器*/
+	$constructor = $class->getConstructor();
+	//var_dump($constructor);
+	
+	$properties = $class->getProperties();
+	//var_dump($properties);
+
+	/*方法*/
+	$methods = $class->getMethods();
+	//var_dump($methods);
+
 }
 
 function line($info)
